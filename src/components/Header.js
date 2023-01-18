@@ -5,7 +5,7 @@ function Header(){
   return(
     <div>
       <div className='nameDiv'>
-        AARON WILLIAMS
+        <h1 className='name'>AARON WILLIAMS</h1>
       </div>
     </div>
   )

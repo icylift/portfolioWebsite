@@ -3,11 +3,14 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Lato', 'Arial', sans-serif;
   
 }
 
 
-::content  {
+/* --------------------------------  Body CSS ---------------------------------------*/
+
+.content  {
     background-color: #fff;
     color: #2c2c2c;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -16,7 +19,13 @@
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
     border-style: solid;
+    padding: 200px;
     
+}
+
+.bigGreeting  {
+  height: auto;
+  font-size: 50px;
 }
 
 /* -------------------------------- This is the Nav bar CSS ---------------------------------------*/
@@ -50,10 +59,24 @@
 /*----------------------------------------- Header CSS ---------------------------------------------*/
 
 .nameDiv {
+  position: relative;
   height: 200px;
+  left: 70px;
+  top: 60px;
+
+}
+
+
+.name {
+  color: rgb(28, 124, 220);
   
 }
 
+/*----------------------------------------- Contact CSS ---------------------------------------------*/
+
+.ContactDiv {
+  height: 100px;
+}
 
 
 
