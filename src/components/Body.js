@@ -11,6 +11,16 @@ function Body(){
           My name is Aaron, 
         </p>
       </div>
+      
+      <div className='resumePortfolioButtons'>
+        <button>Resume</button>
+        <button>Portfolio</button>
+      </div>
+
+      <div className='skillsDiv'>
+        <h1>Skills</h1>
+
+      </div>
     </div>
   )
 }

@@ -28,6 +28,15 @@
   font-size: 50px;
 }
 
+.skillsDiv  {
+  height: 200px;
+  border-style: dotted;
+}
+
+.resumePortfolioButtons {
+  height: 70px;
+}
+
 /* -------------------------------- This is the Nav bar CSS ---------------------------------------*/
 .navBar {
   display: flex;
