@@ -19,6 +19,44 @@
     
 }
 
+/* -------------------------------- This is the Nav bar CSS ---------------------------------------*/
+.navBar {
+  display: flex;
+  flex-direction: row;
+  border-style: double;
+  height: 70px;
+  gap: 790px;
+
+
+}
+
+.navBarButtonDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  padding: 10px;
+  gap: 50px;
+
+
+}
+
+.navBarButtons  {
+  padding: 5px;
+  margin: 1%;
+}
+
+
+
+/*----------------------------------------- Header CSS ---------------------------------------------*/
+
+.nameDiv {
+  height: 200px;
+  
+}
+
+
+
+
 
 
 
