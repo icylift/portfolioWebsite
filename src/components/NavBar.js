@@ -11,7 +11,8 @@ function NavBar(){
         <div className='navBarButtonDiv'>
           <button className='navBarButtons'>Home</button>
           <button className='navBarButtons'>Portfolio</button>
-          <button className='navBarButtons'>Contact Me</button>
+          <button className='navBarButtons'>Contact</button>
+          
         </div>
       </div>
     </div>
