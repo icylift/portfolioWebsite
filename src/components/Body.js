@@ -26,6 +26,7 @@ function Body(){
           <li>react</li>
           <li>Express.js</li>
           <li>MongoDB</li>
+          <li>Git/ Git Hub</li>
         </ul>
 
       </div>

@@ -149,9 +149,8 @@ input {
 /*----------------------------------------- Footer CSS ---------------------------------------------*/
 
 .footer {
-  margin: 2%;
-  background-color: rgba(212, 49, 49, 0.85);
-  height: 100px;
+  background-color: #3d3b3bd5;
+  height: 80px;
 }
 
 
