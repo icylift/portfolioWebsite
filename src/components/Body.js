@@ -18,7 +18,15 @@ function Body(){
       </div>
 
       <div className='skillsDiv'>
-        <h1>Skills</h1>
+        <h1 className='skillsTitle'>Skills</h1>
+        <ul>
+          <li>HTML</li>
+          <li>CSS3</li>
+          <li>Javascript</li>
+          <li>react</li>
+          <li>Express.js</li>
+          <li>MongoDB</li>
+        </ul>
 
       </div>
     </div>

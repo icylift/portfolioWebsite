@@ -12,8 +12,6 @@ function ContactMe(){
           <input type="text"/>
           <input type="text"/>
           <button>Submit</button>
-
-
         </form>
       </div>
     </div>

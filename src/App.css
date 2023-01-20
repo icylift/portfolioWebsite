@@ -8,8 +8,8 @@
 }
 
 
-.app {
-  background-color: #2c2c2c;
+.container {
+  background-color: #bdb2b2;
 }
 
 
@@ -40,7 +40,17 @@
   height: 350px;
   border-style: dotted;
   margin: 2%;
+  background-color:rgba(212, 49, 49, 0.85);
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  padding: 1%;
 }
+
+.skillsTitle {
+  margin: 10px;
+}
+
 
 .resumePortfolioButtons {
   height: 70px;
@@ -54,6 +64,7 @@
   border-style: double;
   height: 70px;
   gap: 790px;
+  background-color: #3d3b3bd5;
 
 
 }
@@ -88,7 +99,7 @@
 
 
 .name {
-  color: rgb(28, 124, 220);
+  color: rgb(0, 0, 0);
   
 }
 
@@ -98,6 +109,7 @@
   height: 100px;
   margin: 2%;
   border-style: dotted;
+  background-color: rgba(212, 49, 49, 0.85);
 
 }
 

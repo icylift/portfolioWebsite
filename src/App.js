@@ -14,11 +14,13 @@ import ContactMe from './components/ContactMe';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Header />
-      <Body />
-      <ContactMe />
-      <Footer />
+      <div className='container'>
+        <NavBar />
+        <Header />
+        <Body />
+        <ContactMe />
+        <Footer />
+      </div>
     </div>
   );
 }
