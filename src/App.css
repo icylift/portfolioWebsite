@@ -10,7 +10,10 @@
 
 .container {
   background-color: #bdb2b2;
+  height: 100%;
 }
+
+
 
 
 /* --------------------------------  Body CSS ---------------------------------------*/
@@ -106,11 +109,22 @@
 /*----------------------------------------- Contact CSS ---------------------------------------------*/
 
 .ContactDiv {
-  height: 100px;
+  height: 300px;
   margin: 2%;
   border-style: dotted;
   background-color: rgba(212, 49, 49, 0.85);
 
+}
+
+.contactForm {
+  border-style: dotted;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+input {
+  width: 40%;
 }
 
 
@@ -118,6 +132,8 @@
 
 .footer {
   margin: 2%;
+  background-color: rgba(212, 49, 49, 0.85);
+  height: 100px;
 }
 
 
