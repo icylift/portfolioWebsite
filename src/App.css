@@ -9,7 +9,7 @@
 
 
 .container {
-  background-color: #bdb2b2;
+  background-color: #bdb2b29e;
   height: 100%;
 }
 
@@ -41,11 +41,13 @@
 
 .skillsDiv  {
   height: 350px;
+  width: 60%;
   border-style: dotted;
   margin: 2%;
   background-color:rgba(212, 49, 49, 0.85);
   display: flex;
-  align-self: center;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding: 1%;
 }
@@ -112,6 +114,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 60%;
   height: 300px;
   margin: 2%;
   border-style: dotted;
