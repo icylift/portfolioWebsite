@@ -52,6 +52,34 @@
   padding: 1%;
 }
 
+.skillListDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 50%;
+  width: 50%;
+}
+
+.skillList  {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex-wrap: wrap;
+  list-style-type:  none;
+  margin: 5px;
+}
+
+.skillList2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type:  none;
+  margin: 5px;
+}
+
+li {
+  margin: 10px;
+}
+
 .skillsTitle {
   margin: 10px;
 }
@@ -149,8 +177,10 @@ input {
 /*----------------------------------------- Footer CSS ---------------------------------------------*/
 
 .footer {
+  margin: 1% ;
   background-color: #3d3b3bd5;
   height: 80px;
+  width: 100%;
 }
 
 
