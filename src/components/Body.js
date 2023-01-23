@@ -14,8 +14,7 @@ function Body(){
         </div>
       </div>
       <div className='resumePortfolioButtons'>
-        <button>Resume</button>
-        <button>Portfolio</button>
+        <button>Contact</button>
       </div>
 
       <div className='skillsDiv'>
