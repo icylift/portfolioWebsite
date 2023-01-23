@@ -10,16 +10,39 @@ function ContactMe(){
         <form className='contactForm'>
 
 
-          <h3>Name</h3>
-          <input type="text"/>
+          <input 
+          type="text"
+          name='firstName'
+          placeholder='first-name'
+          />
 
 
-          <h3>Email</h3>
-          <input type="text"/>
+          <input 
+          type="text"
+          name='lastName'
+          placeholder='last-name'
+          />
 
 
-          <h3>Phone Contact</h3>
-          <input type="text"/>
+          <input 
+            type="email"
+            name='emailInput'
+            placeholder='Email'
+
+          />
+
+
+
+          <input 
+          type="text"
+          name='companyName'
+          placeholder='Company-Name'
+          />
+
+          <label for="description">Tell me how I can help you:</label>
+          <textarea id="description" name="description" rows="4" cols="50">
+          Enter Project details here...
+          </textarea>
 
 
           <button className='contactButton'>Submit</button>
