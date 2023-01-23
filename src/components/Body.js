@@ -13,8 +13,8 @@ function Body(){
             </p>
         </div>
       </div>
-      <div className='resumePortfolioButtons'>
-        <button>Contact</button>
+      <div className='centerContactButtonDiv'>
+        <button className='centerContactBtn'><span>Contact</span></button>
       </div>
 
       <div className='skillsDiv'>

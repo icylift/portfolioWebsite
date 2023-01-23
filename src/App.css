@@ -54,7 +54,7 @@
   width: 60%;
   border-style: dotted;
   margin: 2%;
-  background-color:rgba(212, 49, 49, 0.85);
+  background-color:rgba(182, 156, 156, 0.85);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,11 +94,146 @@ li {
   margin: 10px;
 }
 
+/* -------------------------------- CSS for center contact btn---------------------------------------*/
 
-.resumePortfolioButtons {
+.centerContactButtonDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 70px;
-  margin: 2%
+  margin: 2%;
+  
 }
+
+.centerContactBtn  {
+  position: relative;
+  width: 190px;
+  height: 60px;
+  line-height: 48px;
+  background: #000;
+  text-transform: uppercase;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: ;
+
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+}
+
+.centerContactBtn span  {
+  position: absolute;
+  display: block;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  text-align: center;
+  background: #0c0c0c;
+  color: rgba(138, 205, 215, 0.978);
+  transition: 0.5s;
+}
+
+.centerContactBtn:hover span {
+  color: rgba(255, 255, 255, 1);  
+}
+
+.centerContactBtn span::before  {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 10;
+}
+
+.centerContactBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #c0392b,
+    #f39c12,
+    #f1c40f,
+    #2ecc71,
+    #3498db,
+    #2980b9,
+    #9b59b6,
+    #8e44ad,
+    #c0392b,
+    #f39c12,
+    #f1c40f,
+    #2ecc71,
+    #3498db,
+    #2980b9,
+    #9b59b6,
+    #8e44ad
+  );
+  background-size: 400%;
+  opacity: 0;
+  transition: 2.5s;
+  animation: eff 20s linear infinite;
+}
+
+.centerContactBtn:hover::before,
+.centerContactBtn:hover::after {
+  opacity: 1;
+}
+
+.centerContactBtn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    #c0392b,
+    #f39c12,
+    #f1c40f,
+    #2ecc71,
+    #3498db,
+    #2980b9,
+    #9b59b6,
+    #8e44ad,
+    #c0392b,
+    #f39c12,
+    #f1c40f,
+    #2ecc71,
+    #3498db,
+    #2980b9,
+    #9b59b6,
+    #8e44ad
+  );
+  background-size: 400%;
+  opacity: 0;
+  filter: blur(20px);
+  transition: 0.5s;
+  animation: eff 20s ease infinite;
+}
+
+
+@keyframes eff {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
 
 /* -------------------------------- This is the Nav bar CSS ---------------------------------------*/
 .navBar {
@@ -107,7 +242,7 @@ li {
   border-style: double;
   height: 70px;
   gap: 790px;
-  background-color: #3d3b3bd5;
+  background-color: #bdb8b8df;
 
 
 }
@@ -156,7 +291,7 @@ li {
   height: 300px;
   margin: 2%;
   border-style: dotted;
-  background-color: rgba(212, 49, 49, 0.85);
+  background-color: rgba(182, 156, 156, 0.85);;
   
 
 }
