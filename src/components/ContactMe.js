@@ -13,6 +13,7 @@ function ContactMe(){
           <input 
           type="text"
           name='firstName'
+          id='firstName'
           placeholder='first-name'
           />
 
@@ -20,6 +21,7 @@ function ContactMe(){
           <input 
           type="text"
           name='lastName'
+          id='lastName'
           placeholder='last-name'
           />
 

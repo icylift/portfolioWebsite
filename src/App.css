@@ -1,3 +1,13 @@
+/* Color Palette            
+  #477C30 (green)
+  #7E9870 (lighter green)
+  #F3FCEE (light off whitish color)
+  #F6EDD9 (light brown)
+*/
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -6,10 +16,10 @@
   font-family: 'Lato', 'Arial', sans-serif;
   
 }
-
+/* #262525e8*/
 
 .container {
-  background-color: #262525e8;
+  background-color: #7E9870;
   height: 100%;
 }
 
@@ -28,7 +38,7 @@
 }
 
 .content  {
-    background-color: #fff;
+    background-color: #F3FCEE;
     color: #2c2c2c;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
@@ -54,7 +64,7 @@
   width: 60%;
   border-style: dotted;
   margin: 2%;
-  background-color:rgba(182, 156, 156, 0.85);
+  background-color:#F3FCEE ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,7 +140,7 @@ li {
   bottom: 1px;
   text-align: center;
   background: #0c0c0c;
-  color: rgba(138, 205, 215, 0.978);
+  color: #D8A31A;
   transition: 0.5s;
 }
 
@@ -241,7 +251,7 @@ li {
   border-style: double;
   height: 70px;
   gap: 790px;
-  background-color: #bdb8b8df;
+  background-color: #F6EDD9 ;
 
 
 }
@@ -286,24 +296,36 @@ li {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 60%;
-  height: 600px;
+  width: 90%;
+  height: 800px;
   margin: 2%;
   border-style: dotted;
-  background-color: rgba(182, 156, 156, 0.85);;
+  background-color: #F3FCEE ;
+  color: whitesmoke;
   
 
 }
 
 .contactForm {
   padding: 3px;
-  background-color: #787474;
+  background-color: whitesmoke;
+  color: #000;
   border-style: dotted;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: flexbox;
+
   width: 50%;
   height: 80%;
+  
+}
+
+.firstName  {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.lastName   {
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .contactButton  {
@@ -322,7 +344,7 @@ input {
 
 .footer {
   margin: 1% ;
-  background-color: #3d3b3bd5;
+  background-color: #F6EDD9 ;
   height: 80px;
   width: 100%;
 }
