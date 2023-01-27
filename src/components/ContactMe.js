@@ -29,6 +29,7 @@ function ContactMe(){
           <input 
             type="email"
             name='emailInput'
+            id='emailInput'
             placeholder='Email'
 
           />
@@ -38,16 +39,17 @@ function ContactMe(){
           <input 
           type="text"
           name='companyName'
+          id='companyName'
           placeholder='Company-Name'
           />
 
-          <label for="description">Tell me how I can help you:</label>
+          <label for="description" id='descriptionLabel'>Tell me how I can help you:</label>
           <textarea id="description" name="description" rows="4" cols="50">
           Enter Project details here...
           </textarea>
 
 
-          <button className='contactButton'>Submit</button>
+          <button className='contactButton' id='contactButton'>Submit</button>
         </form>
       </div>
     </div>
