@@ -43,13 +43,13 @@ function ContactMe(){
           placeholder='Company-Name'
           />
 
-          <label for="description" id='descriptionLabel'>Tell me how I can help you:</label>
+          
           <textarea id="description" name="description" rows="4" cols="50">
           Enter Project details here...
           </textarea>
 
 
-          <button className='contactButton' id='contactButton'>Submit</button>
+          <button className='contactButton' id='contactButton'>Send</button>
         </form>
       </div>
     </div>
