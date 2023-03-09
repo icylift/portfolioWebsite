@@ -9,10 +9,14 @@ function NavBar(){
           <h1>AW Logo Here!</h1>
         </div>
         <div className='navBarButtonDiv'>
-          <button className='navBarButtons'>Home</button>
-          <button className='navBarButtons'>Portfolio</button>
-          <button className='navBarButtons'>Contact</button>
-          
+          <nav>
+            <ul>
+              <li><a href='#'>Home</a></li>
+              <li><a href='#'>Portfoli</a></li>
+              <li><a href='#'>Contact</a></li>
+              <li><a href='#'>About</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>

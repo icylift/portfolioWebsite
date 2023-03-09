@@ -1,8 +1,9 @@
 /* Color Palette            
-  #477C30 (green)
-  #7E9870 (lighter green)
-  #F3FCEE (light off whitish color)
-  #F6EDD9 (light brown)
+  #46494c(Dark grey)
+  #4c5c68(medium grey)
+  #c5c3c6(light)
+  #dcdcdd(off-white)
+  #1985a1(blueish)
 */
 
 
@@ -19,7 +20,7 @@
 /* #262525e8*/
 
 .container {
-  background-color: #7E9870;
+  background-color: #46494c;
   height: 100%;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .content  {
-    background-color: #F3FCEE;
+    background-color: #c5c3c6;
     color: #2c2c2c;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
@@ -64,9 +65,9 @@
 .skillsDiv  {
   height: 500px;
   width: 60%;
-  border-style: dotted;
+  border-style: ;
   margin: 2%;
-  background-color:#F3FCEE ;
+  background-color:#c5c3c6 ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -253,7 +254,7 @@ li {
   border-style: double;
   height: 70px;
   gap: 790px;
-  background-color: #F6EDD9 ;
+  background-color: #c5c3c6;
 
 
 }
@@ -303,7 +304,7 @@ li {
   margin: 2%;
   padding-left: 50px;
   border-style: dotted;
-  background-color: #F3FCEE ;
+  background-color: #c5c3c6 ;
   color: rgb(9, 9, 9);
   
 
@@ -311,7 +312,7 @@ li {
 
 .contactForm {
   padding: 15px;
-  background-color: whitesmoke;
+  background-color: rgba(189, 182, 182, 0.754);
   color: #000;
   border-style: double;
   display: grid;
@@ -385,7 +386,7 @@ input {
 
 .footer {
   margin: 1% ;
-  background-color: #F6EDD9 ;
+  background-color: #c5c3c6 ;
   height: 80px;
   width: 100%;
 }
