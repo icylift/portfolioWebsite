@@ -37,6 +37,8 @@
   justify-content: center;
   width: 1800px;
   height: 800px;
+  line-height: 30px;
+  
 }
 
 .content  {
@@ -46,7 +48,7 @@
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
-    overflow-x: hidden;
+    overflow: hidden;
     border-style: solid;
     padding: 200px;
     margin-left: 2%;
@@ -60,12 +62,14 @@
 .bigGreeting  {
   height: auto;
   font-size: 50px;
+  font-weight: 300;
+  padding-bottom: 12px;
 }
 
 .skillsDiv  {
   height: 500px;
   width: 60%;
-  border-style: ;
+  border-style: hidden;
   margin: 2%;
   background-color:#c5c3c6 ;
   display: flex;
@@ -260,9 +264,7 @@ li {
 }
 
 .navBarButtonDiv {
-  display: flex;
-  flex-direction: row;
-  align-items: top;
+  display: inline;
   padding: 10px;
   gap: 50px;
 
