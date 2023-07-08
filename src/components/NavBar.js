@@ -1,31 +1,34 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-
-function NavBar(){
-  return(
+function NavBar() {
+  return (
     <div>
-      <div className='navBar'>
+      <div className="navBar">
         <div>
           <h1>AW Logo Here!</h1>
         </div>
-        <div className='navBarButtonDiv'>
+        <div className="navBarButtonDiv">
           <nav>
             <ul>
-              <li><a href='#'>Home</a></li>
-              <li><a href='#'>Portfoli</a></li>
-              <li><a href='#'>Contact</a></li>
-              <li><a href='#'>About</a></li>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
             </ul>
           </nav>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-
-
-
-
-
-export default NavBar 
+export default NavBar;
