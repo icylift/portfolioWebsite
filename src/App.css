@@ -258,9 +258,10 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-style: double;
+  border-style: none;
   background-color: #c5c3c6;
   padding: 30px 10%;
+  height: 100px;
 
 }
 
