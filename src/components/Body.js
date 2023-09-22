@@ -6,16 +6,16 @@ function Body() {
     <div className="body">
       <div className="greetingDiv">
         <div className="content">
-          <div className="bigGreeting">Hello</div>
+          <div className="bigGreeting">Hello My name is Aaron, </div>
           <p>
-            My name is Aaron, <br /> I am a dedicated and driven individual who
-            is eager to prove my worth through hard work and a strong work
-            ethic. I am constantly seeking new challenges to push my skills to
-            the limit, and I have a deep passion for technology and building
-            visually stunning projects. My commitment to excellence and
-            attention to detail ensures that every project I work on is of the
-            highest quality, and I take pride in delivering exceptional results
-            that exceed my clients' expectations.
+            <br /> I am a dedicated and driven individual who is eager to prove
+            my worth through hard work and a strong work ethic. I am constantly
+            seeking new challenges to push my skills to the limit, and I have a
+            deep passion for technology and building visually stunning projects.
+            My commitment to excellence and attention to detail ensures that
+            every project I work on is of the highest quality, and I take pride
+            in delivering exceptional results that exceed my clients'
+            expectations.
           </p>
         </div>
       </div>

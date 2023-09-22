@@ -6,7 +6,7 @@
   #1985a1(blueish)
 */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Open+Sans:wght@300;400;600&display=swap');
 
 
 * {
@@ -63,6 +63,7 @@
   height: auto;
   font-size: 50px;
   font-weight: 300;
+  
   padding-bottom: 12px;
 }
 
@@ -251,32 +252,55 @@ li {
 
 
 
-/* -------------------------------- This is the Nav bar CSS ---------------------------------------*/
+/* --------------------------------  Nav bar CSS ---------------------------------------*/
 .navBar {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   border-style: double;
-  height: 70px;
-  gap: 790px;
   background-color: #c5c3c6;
-
+  padding: 30px 10%;
 
 }
+
 
 .navBarButtonDiv {
-  display: inline;
   padding: 10px;
-  gap: 50px;
-
-
-}
-
-.navBarButtons  {
-  padding: 5px;
-  margin: 1%;
 }
 
 
+
+.navLinks li a {
+  font-family: 'Gloock', serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #46494c;
+  text-decoration: none;
+
+}
+
+.navLogo  {
+  cursor: pointer;
+}
+
+.navLinks {
+  list-style: none;
+}
+
+.navLinks li  {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navLinks li a {
+  transition: all 0.3 ease 0s;
+}
+
+.navLinks li a:hover {
+  color: #1985a1;
+
+}
 
 /*----------------------------------------- Header CSS ---------------------------------------------*/
 

@@ -6,12 +6,12 @@ function NavBar() {
     <div>
       <div className="navBar">
         <div>
-          <h1>AW Logo Here!</h1>
+          <h1 className="navLogo">AW Logo Here!</h1>
         </div>
         <div className="navBarButtonDiv">
           <nav>
-            <ul>
-              <li>
+            <ul className="navLinks">
+              <li className="navBarButtons">
                 <a href="#">Home</a>
               </li>
               <li>
