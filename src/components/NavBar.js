@@ -6,7 +6,15 @@ function NavBar() {
     <div>
       <div className="navBar">
         <div>
-          <h1 className="navLogo">AW Logo Here!</h1>
+          <h1>
+            <a href="/">
+              <img
+                className="navLogo"
+                src="/images/Black White Minimalist Logo.jpg"
+                alt="logo"
+              />
+            </a>
+          </h1>
         </div>
         <div className="navBarButtonDiv">
           <nav>

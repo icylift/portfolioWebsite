@@ -6,6 +6,7 @@
   #1985a1(blueish)
 */
 
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Open+Sans:wght@300;400;600&display=swap');
 
 
@@ -14,20 +15,18 @@
   padding: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: 'Lato', 'Arial', sans-serif;
+  font-family: 'Gloock', serif;
   
   
 }
-/* #262525e8*/
+
 
 .container {
   background-color: #fff;
   height: 100%;
   width: 100%;
-  background-image: url('images/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg');
-  background-size: 100% 100%;
+  background-image: url('images/marjan-blan-9tqAeLDQT-o-unsplash.jpg');
   background-repeat: none;
-
 }
 
 
@@ -51,7 +50,6 @@
 .content  {
     background-color: #c5c3c6;
     color: #2c2c2c;
-    font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
@@ -59,7 +57,7 @@
     border-style: solid;
     padding: 200px;
     margin-left: 2%;
-    width: 47%;
+    width: 80%;
     left: 10%;
     height: 689px;
 
@@ -76,7 +74,7 @@
 
 .skillsDiv  {
   height: 550px;
-  width: 60%;
+  width: 70%;
   border-style: hidden;
   margin: 10%;
   background-color:#c5c3c6 ;
@@ -279,7 +277,6 @@ li {
 
 
 .navLinks li a {
-  font-family: 'Gloock', serif;
   font-weight: 400;
   font-size: 16px;
   color: #46494c;
@@ -336,7 +333,7 @@ li {
   height: 800px;
   margin: 5%;
   padding: 1%;
-  border-style: dotted;
+  border-style: none;
   background-color: #c5c3c6 ;
   color: rgb(9, 9, 9);
   

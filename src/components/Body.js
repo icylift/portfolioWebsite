@@ -6,7 +6,9 @@ function Body() {
     <div className="body">
       <div className="greetingDiv">
         <div className="content">
-          <div className="bigGreeting">Hello My name is Aaron, </div>
+          <div className="bigGreeting">
+            Hello My name is <span>Aaron</span> ,
+          </div>
           <p>
             <br /> I am a dedicated and driven individual who is eager to prove
             my worth through hard work and a strong work ethic. I am constantly
