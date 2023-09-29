@@ -55,12 +55,13 @@
     text-rendering: optimizeLegibility;
     overflow: hidden;
     border-style: solid;
-    padding: 200px;
+    padding: 100px;
     margin-left: 2%;
     width: 80%;
     left: 10%;
     height: 689px;
-
+    line-height: 40px;
+    letter-spacing: 1px;
     
 }
 
