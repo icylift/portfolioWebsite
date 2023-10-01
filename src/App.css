@@ -1,5 +1,5 @@
 /* Color Palette            
-  #46494c(Dark grey)
+  (Dark grey)
   #4c5c68(medium grey)
   #c5c3c6(light)
   #dcdcdd(off-white)
@@ -45,6 +45,7 @@
   height: 800px;
   line-height: 30px;
   
+  
 }
 
 .content  {
@@ -55,6 +56,7 @@
     text-rendering: optimizeLegibility;
     overflow: hidden;
     border-style: solid;
+    border-radius: 40px;
     padding: 100px;
     margin-left: 2%;
     width: 80%;
@@ -84,6 +86,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 1%;
+  border-radius: 40px;
 }
 
 .skillListDiv {
@@ -314,7 +317,7 @@ li {
   height: 200px;
   left: 70px;
   top: 60px;
-  margin: 2%
+  margin: 2%;
 
 }
 
@@ -337,15 +340,23 @@ li {
   border-style: none;
   background-color: #c5c3c6 ;
   color: rgb(9, 9, 9);
+  border-radius: 40px;
   
 
 }
 
+.contact-header {
+  text-align: center;
+}
+
 .contactForm {
-  padding: 15px;
-  background-color: rgba(189, 182, 182, 0.754);
+  padding: 20px;
+  padding-top: 40px;
+  background-color: #46494c;
   color: #000;
-  border-style: double;
+  border-style: solid;
+  border-color: rgba(189, 182, 182, 0.754);
+  border-radius: 2%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr) 3fr 1fr;

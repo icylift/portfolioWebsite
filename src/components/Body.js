@@ -34,7 +34,7 @@ function Body() {
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Javascript</li>
-            <li>react</li>
+            <li>React</li>
           </ul>
           <ul className="skillList2">
             <li>Express</li>
