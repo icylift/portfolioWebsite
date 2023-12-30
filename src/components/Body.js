@@ -7,7 +7,7 @@ function Body() {
       <div className="greetingDiv">
         <div className="content">
           <div className="bigGreeting">
-            Hello My name is <span>Aaron</span> ,
+            Hello My name is <span>Aaron</span> , I'm a Frontend Developer.
           </div>
           <p>
             <br /> I am a dedicated and driven individual who is eager to prove
