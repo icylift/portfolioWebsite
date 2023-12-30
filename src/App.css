@@ -19,16 +19,21 @@
   
   
 }
+.app  {
+  margin: 0;
+  padding: 0;
+}
 
 
 .container {
-  background-color: #fff;
+  margin: 0;
+  padding: 0;
   height: 100%;
   width: 100%;
-  background-image: url('images/marjan-blan-9tqAeLDQT-o-unsplash.jpg');
   background-repeat: none;
+  background-size: 1800px;
 }
-
+x
 
 
 
@@ -50,6 +55,7 @@
 
 .content  {
     background-color: #c5c3c6;
+    align-items: center;
     color: #2c2c2c;
     font-size: 20px;
     font-weight: 300;
@@ -64,6 +70,7 @@
     height: 689px;
     line-height: 40px;
     letter-spacing: 1px;
+    opacity: 90%;
     
 }
 
@@ -76,8 +83,8 @@
 }
 
 .skillsDiv  {
-  height: 550px;
-  width: 70%;
+  height: 80vh;
+  width: 80%;
   border-style: hidden;
   margin: 10%;
   background-color:#c5c3c6 ;
@@ -90,6 +97,7 @@
 }
 
 .skillListDiv {
+
   display: flex;
   flex-direction: row;
   gap: 50%;
@@ -267,7 +275,8 @@ li {
   justify-content: space-between;
   align-items: center;
   border-style: none;
-  background-color: #c5c3c6;
+  background-color: #886f68;
+
   padding: 30px 10%;
   height: 100px;
 
