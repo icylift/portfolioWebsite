@@ -21,11 +21,6 @@ function Body() {
           </p>
         </div>
       </div>
-      <div className="centerContactButtonDiv">
-        <button className="centerContactBtn">
-          <span>Contact</span>
-        </button>
-      </div>
 
       <div className="skillsDiv">
         <h1 className="skillsTitle">Skills</h1>
@@ -49,3 +44,9 @@ function Body() {
 }
 
 export default Body;
+
+/*  <div className="centerContactButtonDiv">
+    <button className="centerContactBtn">
+    <span>Contact</span>
+    </button>
+</div> */
